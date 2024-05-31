@@ -27,6 +27,11 @@ public class Jeu extends Application {
     public static final char CODE_SCENE_REGLES = 'r';
     
     /**
+     * code de la scène des du plateau de jeu avec 5 joueurs
+     */
+    public static final char CODE_SCENE_REGLES_2 = 'g';
+    
+    /**
      * code de la scène de selection du nombre de joueurs
      */
     public static final char CODE_SCENE_SELECTION_JOUEURS = 's';
@@ -55,6 +60,8 @@ public class Jeu extends Application {
      * code de la scène des du plateau de jeu avec 5 joueurs
      */
     public static final char CODE_SCENE_CINQ_JOUEURS = '5';
+    
+    
 
     
     /** Scène pour l'accueil lors du lancement du jeu */
@@ -68,6 +75,14 @@ public class Jeu extends Application {
 
     /** Scène de la partie avec 5 joueurs */
     private static Scene scene5Joueurs;
+    
+    /** 1ere scène des règles */
+    private static Scene sceneRegles;
+    
+    /** 2eme scène des règles */
+    private static Scene sceneRegles2;
+    
+    
     
     /** Fenêtre principale de l'application, la scène affichée sera
      * modifiée en fonction des clics de l'utilisateur
@@ -88,7 +103,10 @@ public class Jeu extends Application {
             fenetrePrincipale.setScene(sceneAccueil);
             break;
         case CODE_SCENE_REGLES :
-            fenetrePrincipale.setScene(sceneAccueil);
+            fenetrePrincipale.setScene(sceneRegles);
+            break;
+        case CODE_SCENE_REGLES_2 :
+            fenetrePrincipale.setScene(sceneRegles2);
             break;
         case CODE_SCENE_SELECTION_JOUEURS :
             fenetrePrincipale.setScene(sceneSelectionJoueurs);
@@ -143,6 +161,24 @@ public class Jeu extends Application {
             chargeurFXML5Joueurs.setLocation(getClass().getResource("Vue5Joueurs.fxml"));
             conteneur = chargeurFXML5Joueurs.load();
             scene5Joueurs = new Scene(conteneur, 1000, 600);
+            
+            /*
+             * chargement de la vue de la scène des règles
+             * de type Parent
+             */
+            FXMLLoader chargeurFXMLRegles = new FXMLLoader();
+            chargeurFXMLRegles.setLocation(getClass().getResource("VueRegles.fxml"));
+            conteneur = chargeurFXMLRegles.load();
+            sceneRegles = new Scene(conteneur, 1000, 600);
+            
+            /*
+             * chargement de la vue de la 2ème scene des règles
+             * de type Parent
+             */
+            FXMLLoader chargeurFXMLRegles2 = new FXMLLoader();
+            chargeurFXMLRegles2.setLocation(getClass().getResource("VueRegles2.fxml"));
+            conteneur = chargeurFXMLRegles2.load();
+            sceneRegles2 = new Scene(conteneur, 1000, 600);
             
             
             // on définit le titre, la hauteur et la largeur de la fenêtre principale

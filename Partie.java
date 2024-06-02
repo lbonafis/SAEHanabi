@@ -22,6 +22,14 @@ public class Partie {
         for(int i = 1 ; i < 50 ; i++ ) {
             System.out.printf("Carte :  %s %s \n", pioche[i][1], pioche[i][0]);
         }
+        
+    }
+
+    /** TODO commenter le rôle de cette méthode (SRP)
+     * 
+     */
+    public static void finPartie() {
+        // TODO Auto-generated method stub
     }
     
     /** TODO commenter le rôle de cette méthode (SRP)
@@ -30,4 +38,5 @@ public class Partie {
     public static void main(String[] args) {
         lancerPartie();
     }
+
 }

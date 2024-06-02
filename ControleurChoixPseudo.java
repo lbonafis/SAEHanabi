@@ -12,25 +12,20 @@ import javafx.scene.control.TextField;
 /** TODO commenter les responsabilités de cette classe
  * 
  */
-public class ControleurChoixPseudo {
+public class ControleurChoixPseudo extends Controleur5Joueurs {
 
     /** Le nombre de joueurs sélectionné */
     public static int nbJoueur;
 
     private static final String TITRE_BOITE_ERREUR = "Erreur";
 
-    /**
-     * Modèle géré par le contrôleur
-     * Effectue les vérifications et les calculs
-     */
-
-
+    
     @FXML
     private TextField joueur1;
 
     @FXML
     private TextField joueur2;
-
+    
     @FXML
     private TextField joueur3;
 
@@ -39,8 +34,8 @@ public class ControleurChoixPseudo {
 
     @FXML
     private TextField joueur5;
-
-
+    
+    
     /*
      * Méthode appelée automatiquement si l'utiliseur clique sur le bouton DEMARRER
      */
@@ -59,10 +54,21 @@ public class ControleurChoixPseudo {
                                               || joueur5.getText().isEmpty()) { 
                 erreur();
             } else {
+                Partie.lancerPartie();
+                j1.setText(joueur1.getText());
+                j2.setText(joueur2.getText());
+                j3.setText(joueur3.getText());
+                j4.setText(joueur4.getText());
+                j5.setText(joueur5.getText());
+                Jeton initJetons = new Jeton();
+                initJetons.setJetons();
+                Pioche initPioche = new Pioche();
+                initPioche.setPioche();
                 Jeu.activerScene('5');
-            }
             break;
         }
+        }
+        
     }
     
     /*
@@ -84,6 +90,5 @@ public class ControleurChoixPseudo {
         boiteAlerte.setContentText("Tous les joueurs doivent entrer leur pseudos !");
         boiteAlerte.showAndWait();
     }
-
 }
 

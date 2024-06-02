@@ -9,9 +9,10 @@ package iut.info1.application;
  * et s'en sert pour créer la pioches dans laquelle 
  * les différentes cartes seront distribuées 
  */
-public class Pioche {
+public class Pioche extends Controleur5Joueurs {
 
-
+    /** Nombre de cartes dans la pioche */
+    public final int NB_CARTES_PIOCHE = 50;
     /** 
      * Crée la pioche du jeu
      * @return pioche la pioche crée
@@ -29,6 +30,13 @@ public class Pioche {
         return pioche;
 
     }
-
+    
+    /** 
+     * Initialise le nombre de cartes dans la pioche
+     */
+    public void setPioche() {
+        nbPioche.setText(Integer.toString(NB_CARTES_PIOCHE));
+    }
+    
 
 }

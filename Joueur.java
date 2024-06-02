@@ -9,6 +9,7 @@ package iut.info1.application;
  */
 public class Joueur {
     
+
     private String nom;
     
     private String[] cartes;

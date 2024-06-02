@@ -9,7 +9,7 @@ import java.util.Random;
 /** TODO commenter les responsabilités de cette classe
  * 
  */
-public class Carte {
+public class Carte extends Controleur5Joueurs {
     
     private static String[] couleur = {"blanc", "blanc", "blanc", "blanc", "blanc", "blanc", "blanc", "blanc", "blanc", "blanc", 
                                        "rouge", "rouge", "rouge", "rouge", "rouge", "rouge", "rouge", "rouge", "rouge", "rouge",

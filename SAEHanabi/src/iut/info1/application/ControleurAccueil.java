@@ -17,7 +17,7 @@ public class ControleurAccueil {
 
 
     /*
-     * Méthode qui affichage de la scène de choix des joueurs 
+     * Méthode qui affiche de la scène de choix des joueurs 
      * si l'utilisateur clique sur le bouton NouvellePartie
      */
     @FXML
@@ -26,13 +26,11 @@ public class ControleurAccueil {
     } 
 
     /*
-     * Méthode qui affichage de la scène des règles du jeu 
+     * Méthode qui affiche la scène des règles du jeu 
      * si l'utilisateur clique sur le bouton Règles
      */
     @FXML
     void gererClicReglesJeu(ActionEvent event) {
-
-        // affichage de la scène des règles du jeu
         Jeu.activerScene('r');
     }
 }

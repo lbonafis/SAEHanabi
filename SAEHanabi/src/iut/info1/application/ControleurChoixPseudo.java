@@ -8,39 +8,40 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
+import iut.info1.application.tests.*;
 
 /** TODO commenter les responsabilités de cette classe
  * 
  */
-public class ControleurChoixPseudo {
+public class ControleurChoixPseudo extends Controleur5Joueurs {
 
     /** Le nombre de joueurs sélectionné */
     public static int nbJoueur;
 
     private static final String TITRE_BOITE_ERREUR = "Erreur";
 
-    /**
-     * Modèle géré par le contrôleur
-     * Effectue les vérifications et les calculs
-     */
-
-
+    
+    /** TextField du joueur 1 */
     @FXML
-    private TextField joueur1;
-
+    public TextField joueur1;
+    
+    /** TextField du joueur 2 */
     @FXML
-    private TextField joueur2;
-
+    public TextField joueur2;
+    
+    /** TextField du joueur 3 */
     @FXML
-    private TextField joueur3;
-
+    public TextField joueur3;
+    
+    /** TextField du joueur 4 */
     @FXML
-    private TextField joueur4;
-
+    public TextField joueur4;
+    
+    /** TextField du joueur 5 */
     @FXML
-    private TextField joueur5;
-
-
+    public TextField joueur5;
+    
+    
     /*
      * Méthode appelée automatiquement si l'utiliseur clique sur le bouton DEMARRER
      */
@@ -59,10 +60,33 @@ public class ControleurChoixPseudo {
                                               || joueur5.getText().isEmpty()) { 
                 erreur();
             } else {
+                j1.setText(joueur1.getText());
+                j2.setText(joueur2.getText());
+                j3.setText(joueur3.getText());
+                j4.setText(joueur4.getText());
+                j5.setText(joueur5.getText());
+                //TestCarte.testMelangerCartes();
+                //TestCarte.testSetCouleur();
+                //TestJeton testJeton = new TestJeton();
+                //testJeton.testJetons();
+                Carte.melangerCartes();
+                Pioche.creerPioche();
+                TestJoueur.testJoueur();
+                /*new Joueur(Controleur5Joueurs.j1.getText(),1);
+                new Joueur(Controleur5Joueurs.j2.getText(),2);
+                new Joueur(Controleur5Joueurs.j3.getText(),3);
+                new Joueur(Controleur5Joueurs.j4.getText(),4);
+                new Joueur(Controleur5Joueurs.j5.getText(),5);*/
+
+                Jeton initJetons = new Jeton();
+                initJetons.setJetons();
+                Pioche initPioche = new Pioche();
+                initPioche.setPioche();
                 Jeu.activerScene('5');
-            }
             break;
         }
+        }
+        
     }
     
     /*
@@ -84,6 +108,5 @@ public class ControleurChoixPseudo {
         boiteAlerte.setContentText("Tous les joueurs doivent entrer leur pseudos !");
         boiteAlerte.showAndWait();
     }
-
 }
 

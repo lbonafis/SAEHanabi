@@ -2,6 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
@@ -46,6 +47,131 @@
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="15.0" layoutY="56.0" stroke="WHITE" strokeType="INSIDE" width="60.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="15.0" layoutY="77.0" stroke="WHITE" strokeType="INSIDE" width="60.0" />
                         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="15.0" layoutY="98.0" stroke="WHITE" strokeType="INSIDE" width="60.0" />
+                        <Label alignment="CENTER" layoutX="357.0" layoutY="14.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="357.0" layoutY="35.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="357.0" layoutY="56.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="357.0" layoutY="77.0" prefHeight="27.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="357.0" layoutY="97.0" prefHeight="26.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="282.0" layoutY="14.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="207.0" layoutY="14.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="132.0" layoutY="14.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="14.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="282.0" layoutY="35.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="282.0" layoutY="56.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="283.0" layoutY="77.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="282.0" layoutY="97.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="207.0" layoutY="35.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="207.0" layoutY="56.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="132.0" layoutY="35.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="207.0" layoutY="77.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="207.0" layoutY="97.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="132.0" layoutY="56.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="132.0" layoutY="77.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="132.0" layoutY="97.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="35.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="56.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="77.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="57.0" layoutY="97.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
                      </children>
                      <opaqueInsets>
                         <Insets />
@@ -63,10 +189,10 @@
                <children>
                   <Circle fill="DODGERBLUE" layoutX="190.0" layoutY="65.0" radius="22.5" stroke="BLACK" strokeType="INSIDE" />
                   <Circle fill="#ff451f" layoutX="245.0" layoutY="65.0" radius="22.5" stroke="BLACK" strokeType="INSIDE" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="170.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="100.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="30.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="240.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p12" arcHeight="5.0" arcWidth="5.0" fill="#7c7c7c" height="80.0" layoutX="170.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p13" arcHeight="5.0" arcWidth="5.0" fill="#7c7c7c" height="80.0" layoutX="100.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p14" arcHeight="5.0" arcWidth="5.0" fill="#7c7c7c" height="80.0" layoutX="30.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p11" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="240.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
                   <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutX="35.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
                      <fill>
                         <LinearGradient endY="0.9380952380952381">
@@ -77,8 +203,43 @@
                         </LinearGradient>
                      </fill>
                   </Rectangle>
-                  <Text layoutX="30.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 1" wrappingWidth="69.0" />
+                  <Text fx:id="pseudo1" layoutX="29.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 1" wrappingWidth="277.0" />
                   <Button layoutX="229.0" layoutY="2.0" mnemonicParsing="false" onAction="#gererClicSauvegarder" text="Sauvegarder" />
+                  <Label fx:id="jetonsBleu" layoutX="184.0" layoutY="48.0" text="?" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="jetonsRouge" layoutX="239.0" layoutY="48.0" text="?">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="nbCartePioche" alignment="CENTER" layoutX="52.0" layoutY="59.0" prefWidth="26.0" text="?">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v14" alignment="CENTER" layoutX="70.0" layoutY="172.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v13" alignment="CENTER" layoutX="142.0" layoutY="172.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v12" alignment="CENTER" layoutX="214.0" layoutY="172.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v11" alignment="CENTER" layoutX="282.0" layoutY="172.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
          </children>
@@ -99,67 +260,111 @@
             </Pane>
             <Pane prefHeight="200.0" prefWidth="650.0">
                <children>
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="160.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="90.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="20.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="230.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="20.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="230.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="160.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="90.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="560.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="350.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="420.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f1eb" height="80.0" layoutX="490.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutX="350.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
-                     <fill>
-                        <LinearGradient endY="0.9380952380952381">
-                           <stops>
-                              <Stop color="#6785ee" />
-                              <Stop color="#cbd1ff" offset="1.0" />
-                           </stops>
-                        </LinearGradient>
-                     </fill>
-                  </Rectangle>
+                  <Rectangle fx:id="p22" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="160.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p23" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="90.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p24" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="20.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p21" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="230.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p44" arcHeight="5.0" arcWidth="5.0" fill="#7c7c7c" height="80.0" layoutX="20.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p41" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="230.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p42" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="160.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p43" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="90.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p31" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="560.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p34" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="350.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p33" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="420.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p32" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="490.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p54" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="350.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
                   <Button layoutX="489.0" layoutY="270.0" mnemonicParsing="false" onAction="#gererClicTourSuivant" prefHeight="32.0" prefWidth="135.0" style="-fx-background-color: white; -fx-border-color: black;" text="Tour suivant">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Button>
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutX="560.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
-                     <fill>
-                        <LinearGradient endY="0.9380952380952381">
-                           <stops>
-                              <Stop color="#6785ee" />
-                              <Stop color="#cbd1ff" offset="1.0" />
-                           </stops>
-                        </LinearGradient>
-                     </fill>
-                  </Rectangle>
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutX="490.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
-                     <fill>
-                        <LinearGradient endY="0.9380952380952381">
-                           <stops>
-                              <Stop color="#6785ee" />
-                              <Stop color="#cbd1ff" offset="1.0" />
-                           </stops>
-                        </LinearGradient>
-                     </fill>
-                  </Rectangle>
-                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" layoutX="420.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0">
-                     <fill>
-                        <LinearGradient endY="0.9380952380952381">
-                           <stops>
-                              <Stop color="#6785ee" />
-                              <Stop color="#cbd1ff" offset="1.0" />
-                           </stops>
-                        </LinearGradient>
-                     </fill>
-                  </Rectangle>
-                  <Text layoutX="20.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 2" wrappingWidth="69.0" />
-                  <Text layoutX="20.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 4" wrappingWidth="69.0" />
-                  <Text layoutX="350.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 3" wrappingWidth="69.0" />
-                  <Text layoutX="350.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Moi" wrappingWidth="69.0" />
+                  <Rectangle fx:id="p51" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="560.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p52" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="490.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Rectangle fx:id="p53" arcHeight="5.0" arcWidth="5.0" fill="#7a7a7a" height="80.0" layoutX="420.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+                  <Text fx:id="pseudo2" layoutX="20.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 2" wrappingWidth="271.0" />
+                  <Text fx:id="pseudo4" layoutX="20.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 4" wrappingWidth="271.0" />
+                  <Text fx:id="pseudo3" layoutX="351.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 3" wrappingWidth="277.0" />
+                  <Text fx:id="pseudo5" layoutX="351.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 5" wrappingWidth="277.0" />
+                  <Label fx:id="v31" alignment="CENTER" layoutX="599.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v34" alignment="CENTER" layoutX="392.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v33" alignment="CENTER" layoutX="462.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v32" alignment="CENTER" layoutX="532.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v21" alignment="CENTER" layoutX="272.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v22" alignment="CENTER" layoutX="202.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v23" alignment="CENTER" layoutX="132.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v24" alignment="CENTER" layoutX="62.0" layoutY="29.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v41" alignment="CENTER" layoutX="272.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v42" alignment="CENTER" layoutX="202.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v43" alignment="CENTER" layoutX="132.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v44" alignment="CENTER" layoutX="62.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v54" alignment="CENTER" layoutX="392.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v53" alignment="CENTER" layoutX="462.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v52" alignment="CENTER" layoutX="532.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="v51" alignment="CENTER" layoutX="599.0" layoutY="160.0" prefHeight="25.0" prefWidth="18.0" text="?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
          </children>

@@ -23,7 +23,7 @@
    <children>
       <ImageView fitHeight="716.0" fitWidth="1203.0" layoutX="-9.0" layoutY="-49.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../AutresImages/image.png" />
+            <Image url="@AutresImages/image.png" />
          </image>
       </ImageView>
       <BorderPane prefHeight="600.0" prefWidth="1000.0">

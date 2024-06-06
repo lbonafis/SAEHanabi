@@ -10,8 +10,9 @@ import javafx.scene.control.Label;
 import javafx.scene.text.Text;
 import javafx.scene.shape.*;
 
-/** TODO commenter les responsabilités de cette classe
- * 
+/**
+ * Contrôleur de la page Vue5Joueurs.fxml
+ * @author louis.bonafis
  */
 public class Controleur5Joueurs {
     
@@ -412,8 +413,8 @@ public class Controleur5Joueurs {
     }
 
 
-    /** TODO commenter le rôle de cette méthode (SRP)
-     * 
+    /**
+     * Gère l'affichage de la valeur des jetons
      */
     public void setJetons() {
         nbBleu = jetonsBleu;

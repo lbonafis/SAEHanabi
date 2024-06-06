@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 /** 
  * Classe principale de l'application
- * @author Louis Bonafis
+ * @author louis.bonafis
  * @version 1.0
  */
 public class Jeu extends Application {
@@ -145,7 +145,7 @@ public class Jeu extends Application {
             sceneSelectionJoueurs = new Scene(conteneur, 1000, 600);
             
             /*
-             * chargement de la vue de la scène de choix des pseudos des joueurs
+             * chargement de la vue de la scène de choix des pseudo des joueurs
              * de type Parent
              */
             FXMLLoader chargeurFXMLPseudo = new FXMLLoader();

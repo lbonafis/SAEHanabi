@@ -9,7 +9,7 @@ import javafx.scene.paint.Color;
 
 /** 
  * Classe qui crée et manipule les cartes selon les demandes de l'utilisateur
- * @author Louis Bonafis
+ * @author louis.bonafis
  */
 public class Carte extends Controleur5Joueurs {
     
@@ -57,7 +57,8 @@ public class Carte extends Controleur5Joueurs {
     }   
 
     /** 
-     * 
+     * Crée un nouvelle carte à partir des tableaux
+     * couleur et numero
      * @return nouvelleCarte la carte crée
      */
     public static String[] getCarte() {

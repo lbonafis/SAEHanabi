@@ -5,13 +5,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
 /**
- * Classe qui joue le rôle du contrôleur dans l'application calcul du prix à payer en
- * fonction d'un taux de réduction et d'un bon de réduction
- * REMARQUE : on trouve dans cette classe un attribut de type CalculReduction. Cette
- * instance est le modèle géré par le contrôleur. C'est grâce à elle que les vérifications
- * des saisies sont faites, ainsi que les calculs des résultats (prix à payer et économie)
- * @author Louis Bonafis
- * @version 1.0
+ * Contrôleur de la page VueAccueil.fxml
+ * @author louis.bonafis
  */
 public class ControleurAccueil {
 

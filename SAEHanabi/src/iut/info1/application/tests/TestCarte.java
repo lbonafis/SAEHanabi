@@ -9,7 +9,7 @@ import iut.info1.application.*;
 
 /** 
  * Classe de tests unitaires de la classe iut.info1.application.Carte
- * @author Louis Bonafis
+ * @author louis.bonafis
  */
 public class TestCarte {
     

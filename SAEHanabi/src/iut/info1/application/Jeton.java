@@ -4,8 +4,9 @@
  */
 package iut.info1.application;
 
-/** TODO commenter les responsabilités de cette classe
- * 
+/** 
+ * Fait varier le nombre de jetons selon les actions du joueur
+ * @author louis.bonafis
  */
 public class Jeton extends Controleur5Joueurs {
     

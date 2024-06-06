@@ -10,8 +10,9 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import iut.info1.application.tests.*;
 
-/** TODO commenter les responsabilités de cette classe
- * 
+/**
+ * Contrôleur de la page VueChoixPseudo.fxml
+ * @author louis.bonafis
  */
 public class ControleurChoixPseudo extends Controleur5Joueurs {
 
@@ -71,6 +72,7 @@ public class ControleurChoixPseudo extends Controleur5Joueurs {
                 //testJeton.testJetons();
                 Carte.melangerCartes();
                 Pioche.creerPioche();
+                //TestPioche.testCreerPioche();
                 TestJoueur.testJoueur();
                 /*new Joueur(Controleur5Joueurs.j1.getText(),1);
                 new Joueur(Controleur5Joueurs.j2.getText(),2);
@@ -104,7 +106,7 @@ public class ControleurChoixPseudo extends Controleur5Joueurs {
     private static void erreur() {
         Alert boiteAlerte = new Alert(Alert.AlertType.ERROR);
         boiteAlerte.setTitle(TITRE_BOITE_ERREUR);
-        boiteAlerte.setHeaderText("Jcrois t'as fait de la merde");
+        boiteAlerte.setHeaderText("Erreur de saisie");
         boiteAlerte.setContentText("Tous les joueurs doivent entrer leur pseudos !");
         boiteAlerte.showAndWait();
     }

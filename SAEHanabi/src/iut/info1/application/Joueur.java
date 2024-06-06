@@ -5,7 +5,9 @@
 package iut.info1.application;
 
 /** 
- * Classe qui définit les joueurs présents dans la partie
+ * Classe qui crée les joueurs présents dans la partie
+ * et initialise leur jeu ainsi que l'affichage
+ * @author louis.bonafis
  */
 public class Joueur extends Controleur5Joueurs {
     
@@ -55,6 +57,16 @@ public class Joueur extends Controleur5Joueurs {
                 System.out.println(joueur1[i]);
             }
             cpJ1 = joueur1;
+            //pour test affichage couleurs
+            /*
+            Controleur5Joueurs.n11.setText(cpJ1[1]);
+            Carte.setCouleur(1,2,joueur1[2]);
+            Controleur5Joueurs.n12.setText(cpJ1[3]);
+            Carte.setCouleur(1,4,joueur1[4]);
+            Controleur5Joueurs.n13.setText(cpJ1[5]);
+            Carte.setCouleur(1,6,joueur1[6]);
+            Controleur5Joueurs.n14.setText(cpJ1[7]);
+            Carte.setCouleur(1,8,joueur1[8]);*/
             break;
         case 2 :
             joueur2[0] = nom;

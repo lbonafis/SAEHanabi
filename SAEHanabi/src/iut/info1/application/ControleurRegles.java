@@ -7,8 +7,9 @@ package iut.info1.application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-/** TODO commenter les responsabilités de cette classe
- * 
+/**
+ * Contrôleur de la page VueRegles.fxml
+ * @author louis.bonafis
  */
 public class ControleurRegles {
     

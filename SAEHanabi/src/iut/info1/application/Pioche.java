@@ -8,6 +8,7 @@ package iut.info1.application;
  * Demande la création de cartes à la classe Carte
  * et s'en sert pour créer la pioches dans laquelle 
  * les différentes cartes seront distribuées 
+ * @author louis.bonafis
  */
 public class Pioche {
 
@@ -33,13 +34,13 @@ public class Pioche {
             pioche[i][0]= nouvelleCarte[0];
             pioche[i][1]= nouvelleCarte[1];
         }
-        for(int i = 1 ; i < 50 ; i++ ) {
+        for(int i = 0 ; i < 50 ; i++ ) {
             System.out.printf("Carte :  %s %s \n", pioche[i][1], pioche[i][0]);
         }
     }
     
     /** 
-     * Initialise le nombre de cartes dans la pioche
+     * Modifie l'affichage nombre de cartes dans la pioche
      */
     public void setPioche() {
         Controleur5Joueurs.nbPioche.setText(Integer.toString(NB_CARTES_PIOCHE));

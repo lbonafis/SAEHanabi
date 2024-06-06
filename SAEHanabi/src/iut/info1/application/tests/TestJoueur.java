@@ -8,7 +8,7 @@ import iut.info1.application.*;
 
 /** 
  * Classe de test de la classe iut.info1.application.Joueur
- * @author Louis Bonafis 
+ * @author louis.bonafis
  */
 public class TestJoueur {
     
@@ -24,7 +24,7 @@ public class TestJoueur {
         for(int i = 0 ; i < 9 ; i++ ) {
             System.out.println(  Joueur.cpJ1[i] +"     |     "+ Joueur.cpJ2[i] +"     |     "
                                + Joueur.cpJ3[i] +"     |     "+ Joueur.cpJ4[i] +"     |     "
-                                                          + Joueur.cpJ5[i]);
+                                                              + Joueur.cpJ5[i]);
         }
     }
 }
